@@ -26,9 +26,9 @@ const StudyChart = () => (
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="date" />
       <YAxis dataKey="合計" />
-      <Line type="monotone" dataKey="合計" stroke="#8884d8" />
-      <Line type="monotone" dataKey="達成数" stroke="#3ba2f6" />
-      <Line type="monotone" dataKey="達成率" stroke="#ff0092" />
+      <Line type="monotone" dataKey="合計" stroke="#1e17a7" />
+      <Line type="monotone" dataKey="達成数" stroke="#69ae31" />
+      <Line type="monotone" dataKey="達成率" stroke="#de499d" />
       <Legend />
       <Tooltip />
     </LineChart>

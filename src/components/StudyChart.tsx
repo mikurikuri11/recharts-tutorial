@@ -30,7 +30,7 @@ const StudyChart = () => (
         top: 10,
         right: 40,
         left: 5,
-        bottom: 10,
+        bottom: 15,
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />

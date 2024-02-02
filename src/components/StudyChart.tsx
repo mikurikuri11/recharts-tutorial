@@ -15,7 +15,7 @@ const pStyle = {
 };
 
 const divStyle = {
-  background: 'linear-gradient(to right, #fff, #fff8)',
+  background: 'linear-gradient(to right, #261717, #932a2a87)',
   fontWeight: 'bold',
   border: 'solid 2px blue',
 };
@@ -47,7 +47,7 @@ const StudyChart = () => (
       />
       <YAxis dataKey="合計" tickCount={5} />
       {/* <Line type="monotone" dataKey="達成数" stroke="#69ae31" strokeWidth={2} /> */}
-      <Line type="monotone" dataKey="達成率" stroke="#58b8e8" strokeWidth={2} />
+      <Line type="monotone" dataKey="達成率" stroke="#324d5b" strokeWidth={2} />
       <Legend verticalAlign="top" height={30} iconSize={20} iconType="plainline" />
       <Tooltip contentStyle={divStyle} labelStyle={pStyle} />
     </LineChart>
